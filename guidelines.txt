@@ -1,0 +1,41 @@
+Atividade 4: Sistema de Reservas de Voo.
+
+Descrição: Criar um sistema de reservas de voos. O sistema deve permitir que os usuários
+pesquisem voos disponíveis com base em critérios como origem, destino e data. Os usuários
+devem poder selecionar um voo e fazer uma reserva, informando seus dados pessoais. O
+sistema deve garantir que não haja conflito de reservas para o mesmo voo.
+
+1. Funcionalidades básicas:
+   - O sistema deve permitir que os usuários pesquisem voos disponíveis com
+   base em critérios como origem, destino e data.
+   - O sistema deve exibir os voos disponíveis, mostrando informações como
+   número do voo, origem, destino, horário de partida e horário de chegada.
+   - O sistema deve permitir que os usuários selecionem um voo e façam uma
+   reserva, fornecendo informações pessoais, como nome, número de
+   passaporte ou documento de identificação.
+   - O sistema deve garantir que não haja conflito de reservas para o mesmo voo,
+   ou seja, não pode haver duas reservas para o mesmo assento em um
+   determinado voo.
+
+2. Validações:
+   - O sistema deve realizar validações para garantir que informações
+   obrigatórias, como origem, destino e data, sejam fornecidas durante a
+   pesquisa de voos e a reserva.
+   - O sistema deve verificar a disponibilidade de assentos no voo selecionado
+   antes de permitir a reserva.
+   - O sistema deve lidar com possíveis erros de reserva, como informar ao
+   usuário caso o assento já esteja ocupado.
+
+3. Persistência de dados:
+   - O sistema deve ser capaz de armazenar os dados dos voos e das reservas de
+   forma persistente, para que os registros não sejam perdidos após o
+   encerramento do programa.
+   - Os alunos podem optar por usar arquivos para armazenar os dados em disco
+   ou uma abordagem de banco de dados simples (como SQLite).
+
+4. Interface de usuário:
+   - O sistema deve fornecer uma interface de usuário intuitiva, permitindo que o
+   usuário interaja com as funcionalidades por meio de um menu ou comandos
+   claros.
+   - O sistema deve apresentar as informações de forma organizada, facilitando a
+   visualização dos voos, disponibilidade de assentos e informações de reserva.
