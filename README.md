@@ -22,6 +22,7 @@ Desenvolvido e testado utilizando o ambiente MSYS2(WINDOWS) com GCC e libs do GT
     - GTK no WINDOWS: https://www.gtk.org/docs/installations/windows/
     - GTK no MACOS: melhore.
 
+    - "prototype.c" é apenas um esboço de terminal para desenvolver a lógica do sistema, ignorável 
     - Navegue para o diretório dos arquivos (cd /c/users/Alguma_pasta_ai)
     - Comando para compilar: gcc $( pkg-config --cflags gtk4 ) -o main main.c $( pkg-config --libs gtk4 )
     - Comando para executar: ./main
