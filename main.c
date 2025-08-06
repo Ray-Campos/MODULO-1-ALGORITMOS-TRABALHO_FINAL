@@ -152,7 +152,7 @@ void load_voos_dados(void){
         }
     }
     fclose(dados);
-}
+} 
 
 //função para encontrar a ocorrência de um char numa string, qualquer coisa diferente de um char dá erro
 int str_cspn(const char *str1, const char *str2){
