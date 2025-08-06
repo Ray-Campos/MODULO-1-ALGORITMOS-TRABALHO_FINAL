@@ -5,7 +5,7 @@ pesquisem voos disponíveis com base em critérios como origem, destino e data. 
 devem poder selecionar um voo e fazer uma reserva, informando seus dados pessoais. O
 sistema deve garantir que não haja conflito de reservas para o mesmo voo.
 
-1. Funcionalidades básicas:
+1. Funcionalidades básicas: 
    - O sistema deve permitir que os usuários pesquisem voos disponíveis com
    base em critérios como origem, destino e data.
    - O sistema deve exibir os voos disponíveis, mostrando informações como
