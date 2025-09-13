@@ -9,7 +9,7 @@ Funcionalidades bastante básicas, qualquer complexidade é culpa da GUI.
 ## Features
 
     - GUI usando GTK
-    - PGO (Progamação Orientada a Gambiarra)
+    - POG (Progamação Orientada a Gambiarra)
     - 0 modularidade (Não deu tempo...)
     - Comentários minímos!!!
 
